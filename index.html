@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes recettes</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div class="layout">
+      <header class="Haut_site">
+        <h1>Ownkooking</h1>
+        <p class="count" id="count"></p>    
+      </header>  
+
+      <nav class="menu">
+        <input class="search" id="search" type="text" placeholder="Tu veux manger quoi ?">
+        <div id="filtres">
+          <button class="filtre_type" data-type="Apéritif">Apéritif</button>
+          <button class="filtre_type" data-type="Fromagé">Fromagé</button>
+          <button class="filtre_type" data-type="Veggie">Veggie</button>
+          <button class="filtre_type" data-type="Poulet">Poulet</button>
+          <button class="filtre_type" data-type="Boeuf">Boeuf</button>
+          <button class="filtre_type" data-type="porc">Porc</button>
+          <button class="filtre_type" data-type="Fromagé">Fromagé</button>
+          <button class="filtre_type" data-type="Poisson">Poisson</button>
+          <button class="filtre_type" data-type="sauce">Sauce</button>
+          <button class="filtre_type" data-type="Pate">Pate</button>
+        </div>  
+      </nav>
+
+      <div class="wrap">
+        <ul id="liste"></ul>
+      </div>
+
+    </div>
+
+    <div class="overlay" id="overlay">
+      <div class="modal">
+        <button class="close" id="close">&times;</button>
+        <div id="modalContent"></div>
+      </div>
+    </div>
+
+    <script src="base_de_donnee.js"></script>
+    <script src="script.js"></script>
+
+  </body>
+</html>

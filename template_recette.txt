@@ -1,0 +1,25 @@
+
+  {
+    "titre": "nom de la recette",
+    "ingredients": [
+      {
+        "nom": "nom de l'ingredients principale",
+        "quantite": "?",
+        "unite": "?"
+      },
+      {
+        "nom": "nom de l'ingredients principale 2",
+        "quantite": "?",
+        "unite": "?"
+      }
+    ],
+    "instructions": [
+      "etape 1",
+      "etape 2",
+      "etape 3"
+      ],      
+    "type_recette": "(Veggie|Boeuf|Poulet|porc|Fromagé|Pate|Poisson|sauce)",
+    "temps_prepa": "(en h)",
+    "image": null, 
+    "Personne": (int)
+  }
