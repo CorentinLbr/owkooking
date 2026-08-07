@@ -95,6 +95,7 @@ body {
 @media (max-width: 780px) {
   .menu {
     margin-left: 30px;
+    margin-bottom: 20px;
     width: calc(100% - 60px);
     position: relative;
     top: 10px;
@@ -108,6 +109,7 @@ body {
     width: 100%;
     position: relative;
     top: 10px;
+    margin-bottom: 20px;
     height: auto;
   }
 }
@@ -150,20 +152,23 @@ body {
   .filtre_type {
     box-shadow: 0 0 0 1px #b5512f4b;
   }
+
 }
 
 /* picture */
 .image_recette {
   display: block;
-  width: 90%;
+  width: 100%;
   max-width: 600px;
-  height: 300px;
-  margin: 30px auto;
-  
+  height: calc(0.5*width);
+  max-height: 300px;
+  margin-top: 15px ;
+  margin-bottom: 30px ;
+
   object-fit: cover;
   
   border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
 /* Survol */
@@ -221,14 +226,15 @@ body {
 
 .wrap {
   margin-top: calc(var(--header-height));
-  margin-left: 220px;
+  margin-left: 240px;
+  width: calc(100% - 270px);
   margin-bottom: 10px;
 }
 
 @media (max-width: 780px) {
   .wrap {
-    margin: 10px 10px 10px;
-    max-width: none;
+    margin: 10px 10px;
+    width: calc(100% - 20px);
   }
 }
 

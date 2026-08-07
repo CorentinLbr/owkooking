@@ -1,57 +1,5 @@
 const RECETTES = [
   {
-    "titre": "Boeuf bourguignon",
-    "ingredients": [
-      {
-        "nom": "bœuf bourguignon",
-        "quantite": "600",
-        "unite": "g"
-      },
-      {
-        "nom": "beurre",
-        "quantite": "100",
-        "unite": "g"
-      },
-      {
-        "nom": "vin rouge",
-        "quantite": "1",
-        "unite": "bouteille"
-      },
-      {
-        "nom": "carottes",
-        "quantite": "4",
-        "unite": null
-      },
-      {
-        "nom": "oignons",
-        "quantite": "4",
-        "unite": null
-      },
-      {
-        "nom": "bouquet garni",
-        "quantite": "1",
-        "unite": null
-      },
-      {
-        "nom": "sel et poivre",
-        "quantite": null,
-        "unite": null
-      }
-    ],
-    "instructions": [
-      "Détailler la viande en cubes de 3 cm de côté, enlever les gros morceaux de gras.",
-      "Couper l'oignon en morceaux. Le faire revenir dans une poêle au beurre. Une fois transparent, le verser dans une cocotte en fonte de préférence.",
-      "Procéder de même avec la viande mais en plusieurs fois, jusqu'à ce que tous les morceaux soient cuits. Les ajouter au fur et à mesure dans la cocotte. Ne pas avoir peur d'ajouter du beurre entre chaque fournée.",
-      "Quand toute la viande est dans la cocotte, déglacer la poêle avec de l'eau ou du vin et faire bouillir en raclant pour récupérer le suc. Saler, poivrer, ajouter au reste.",
-      "Recouvrir le tout avec une partie du vin et faire mijoter quelques heures avec le bouquet garni et les carottes en rondelles.",
-      "Le lendemain, faire mijoter au moins 2 heures en plusieurs fois, ajouter du vin ou de l'eau si nécessaire."
-    ],
-    "type_recette": "boeuf",
-    "temps_prepa": "6",
-    "image": "boeufbourguignon.jpg", 
-    "Personne": 4
-  },
-  {
     "titre": "Aubergines à la Parmigiana",
     "ingredients": [
       {
@@ -278,7 +226,7 @@ const RECETTES = [
     ],
     "type_recette": "porc",
     "temps_prepa": "1",
-    "image": "Chakchouka.jpg", 
+    "image": "chakchouka.jpg", 
     "Personne": 4
   },
   {
@@ -747,7 +695,7 @@ const RECETTES = [
     ],
     "type_recette": "veggie",
     "temps_prepa": "0.7",
-    "image": "rissotopoireaux", 
+    "image": "risottopoireaux.jpg", 
     "Personne": 4
   },
   {
@@ -906,7 +854,7 @@ const RECETTES = [
     ],
     "type_recette": "porc",
     "temps_prepa": "0.7",
-    "image": "Rougail.jpg", 
+    "image": "rougail.jpg", 
     "Personne": 4
   },
   {
@@ -977,54 +925,6 @@ const RECETTES = [
     "type_recette": "porc",
     "temps_prepa": "1",
     "image": "andouillette.jpg", 
-    "Personne": 4
-  },
-  {
-    "titre": "Gnocchis",
-    "ingredients": [
-      {
-        "nom": "pomme de terre",
-        "quantite": "500",
-        "unite": "g"
-      },
-      {
-        "nom": "farine",
-        "quantite": "250",
-        "unite": "g"
-      },
-      {
-        "nom": "oeuf",
-        "quantite": "1",
-        "unite": null
-      },
-      {
-        "nom": "beurre",
-        "quantite": null,
-        "unite": null
-      },
-      {
-        "nom": "muscade",
-        "quantite": null,
-        "unite": null
-      },
-      {
-        "nom": "sel et poivre",
-        "quantite": null,
-        "unite": null
-      }
-    ],
-    "instructions": [
-      "Faire cuire les pommes de terre dans l'eau salée bouillante environ 25/30 min jusqu'à ce qu'elles soient bien tendres.",
-      "Les peler puis les écraser en purée. Laisser refroidir.",
-      "Sur un plan de travail fariné, former un puit avec la purée. Déposer au centre, le jaune d'oeuf, le poivre, le sel, la muscade et une partie de la farine. Mélanger du bout des doigts en incorporant petit à petit la farine. Vous devez obtenir une boule non collante.",
-      "Prendre une partie de cette boule et la rouler comme un saucisson plus ou moins épais en fonction de la taille des gnocchis que vous voulez obtenir. Couper des tronçons d'environ 2cm. Transformer chaque tronçon en boule. Appuyer chaque boule sur le dos d'une fourchette et exerçant une petite pression avec le pouce au dos de la boule pour donner la forme du gnocchis.",
-      "Les disposer séparément sur un torchon.",
-      "Faire bouillir un grande quantité d'au salée et y plonger les gnocchis délicatement. Ces derniers sont cuits quand ils remontent à la surface (environ 2/3 min).",
-      "Faire fondre la noisette de beurre dans une poêle et y faire revenir les gnocchis jusqu'à ce qu'ils soient dorés."
-    ],
-    "type_recette": "veggie",
-    "temps_prepa": "1.5",
-    "image": "gnocchi.jpg", 
     "Personne": 4
   },
   {
@@ -2100,7 +2000,7 @@ const RECETTES = [
     ],
     "type_recette": "boeuf",
     "temps_prepa": "0.5",
-    "image": "burger.jp", 
+    "image": "burger.jpg", 
     "Personne": 4
   },
   {
@@ -2481,7 +2381,7 @@ const RECETTES = [
     ],
     "type_recette": "pate",
     "temps_prepa": "2.5",
-    "image": "Baguette.jpg", 
+    "image": "baguette.jpg", 
     "Personne": 4
   },
   {
@@ -2804,53 +2704,6 @@ const RECETTES = [
     "temps_prepa": "2",
     "image": "paella.jpg", 
     "Personne": 8
-  },
-  {
-    "titre": "Cordon bleu",
-    "ingredients": [
-      {
-        "nom": "beurre",
-        "quantite": "20",
-        "unite": "g"
-      },
-      {
-        "nom": "farine",
-        "quantite": null,
-        "unite": null
-      },
-      {
-        "nom": "chapelure",
-        "quantite": null,
-        "unite": null
-      },
-      {
-        "nom": "oeuf",
-        "quantite": "1",
-        "unite": null
-      },
-      {
-        "nom": "poulet",
-        "quantite": "4",
-        "unite": "filets"
-      },
-      {
-        "nom": "bacon",
-        "quantite": "8",
-        "unite": "tranches"
-      },
-      {
-        "nom": "Comté",
-        "quantite": null,
-        "unite": null
-      }
-    ],
-    "instructions": [
-      null
-    ],
-    "type_recette": "poulet",
-    "temps_prepa": "1",
-    "image": "Cordonbleu.jpg", 
-    "Personne": 4
   },
   {
     "titre": "Camembert rôti au miel",
@@ -3211,7 +3064,7 @@ const RECETTES = [
     ],
     "type_recette": "poisson",
     "temps_prepa": "1.2",
-    "image": "", 
+    "image": "brandademorue.jpg", 
     "Personne": 4
   },
   {
@@ -3674,16 +3527,16 @@ const RECETTES = [
     "Personne": 6
   },
   {
-    "titre": "Pesto maison traditionnel",
+    "titre": "Sauce pesto",
     "ingredients": [
       {
         "nom": "Basilic frais",
-        "quantite": 50,
+        "quantite": 60,
         "unite": "g"
       },
       {
         "nom": "Pignons de pin",
-        "quantite": 40,
+        "quantite": 20,
         "unite": "g"
       },
       {
@@ -3693,12 +3546,12 @@ const RECETTES = [
       },
       {
         "nom": "Ail",
-        "quantite": 2,
+        "quantite": 4,
         "unite": "gousses"
       },
       {
         "nom": "Huile d'olive",
-        "quantite": 15,
+        "quantite": 20,
         "unite": "cl"
       },
       {
@@ -3711,13 +3564,809 @@ const RECETTES = [
       "Laver et sécher les feuilles de basilic.",
       "Mixer le basilic avec l'ail, les pignons et le parmesan.",
       "Ajouter progressivement l'huile d'olive jusqu'à obtenir une sauce homogène.",
-      "Rectifier l'assaisonnement avec du sel.",
       "Conserver au frais dans un récipient fermé."
     ],
     "type_recette": "sauce",
     "temps_prepa": 0.25,
     "image": "Pesto.jpg",
+    "Personne": 6
+  },
+  {
+    "titre": "Salade de Lentilles Vertes",
+    "ingredients": [
+      {
+        "nom": "lentilles vertes",
+        "quantite": "240",
+        "unite": "g"
+      },
+      {
+        "nom": "carotte",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "oignon",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "gousse d'ail",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "ciboulette fraîche",
+        "quantite": "10",
+        "unite": "brins"
+      },
+      {
+        "nom": "huile de colza",
+        "quantite": "1",
+        "unite": "càs"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "20",
+        "unite": "g"
+      },
+      {
+        "nom": "fond de bœuf",
+        "quantite": "70",
+        "unite": "cl"
+      },
+      {
+        "nom": "thym frais",
+        "quantite": "1",
+        "unite": "branche"
+      },
+      {
+        "nom": "laurier frais",
+        "quantite": "2",
+        "unite": "feuilles"
+      },
+      {
+        "nom": "Sel - poivre",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "Vinaigrette",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Épluchez la carotte et l'oignon, puis taillez-les en mirepoix (petits dés). Épluchez la gousse d'ail, dégermez-la puis écrasez-la. Ciselez la ciboulette.",
+      "Faites chauffer l'huile et le beurre dans une grande casserole, puis faites rissoler quelques minutes la carotte, l'oignon et l'ail sur feu vif, en remuant.",
+      "Ajoutez les lentilles, le vin blanc, le fond de bœuf, le thym et le laurier. Assaisonnez, puis faites cuire 25 min.",
+      "Lorsque les lentilles sont cuites, poivrez, mélangez, puis égouttez.",
+      "Enlevez le thym et le laurier puis déposez la préparation dans un cul-de-poule que vous réserverez au frais.",
+      "Lorsque les lentilles sont bien froides, ajoutez la vinaigrette et la ciboulette ciselée."
+      ],      
+    "type_recette": "Veggie",
+    "temps_prepa": 0.25,
+    "image": "salade_de_lentilles_vertes.jpg", 
     "Personne": 4
-  }
+  },
+  {
+    "titre": "Taboulé",
+    "ingredients": [
+      {
+        "nom": "semoule grosse ou moyenne",
+        "quantite": "250",
+        "unite": "g"
+      },
+      {
+        "nom": "eau",
+        "quantite": "55",
+        "unite": "cl"
+      },
+      {
+        "nom": "curry",
+        "quantite": "1",
+        "unite": "càs"
+      },
+      {
+        "nom": "tomates",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "poivron vert",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "menthe fraîche",
+        "quantite": "5",
+        "unite": "branches"
+      },
+      {
+        "nom": "basilic frais",
+        "quantite": "5",
+        "unite": "branches"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": "5",
+        "unite": "cl"
+      },
+      {
+        "nom": "vinaigre de xérès",
+        "quantite": "5",
+        "unite": "cl"
+      },
+      {
+        "nom": "Sel",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "piment en poudre",
+        "quantite": "3",
+        "unite": "pincées"
+      },
+      {
+        "nom": "Tabasco",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Dans une grande casserole, portez l'eau à ébullition avec le curry et le piment. Placez la semoule dans un saladier puis versez l'eau bouillante dessus. Couvrez et laissez gonfler 30 min.",
+      "Pendant ce temps, portez une casserole d'eau à ébullition. Incisez la base des tomates en forme de croix, puis plongez-les pour 30 s dans l'eau bouillante. Récupérez-les à l'aide d'une araignée, puis plongez-les dans un cul-de-poule rempli d'eau froide. Épluchez-les, taillez-les en petits dés réguliers, puis rincez-les dans une passoire.",
+      "Coupez le poivron en deux. Épépinez-le, puis taillez la chair en petits dés réguliers.",
+      "Effeuillez les herbes fraîches, puis ciselez-les.",
+      "Une fois la semoule gonflée, égrainez-la avec une fourchette. Ajoutez les dés de tomate et de poivron, les herbes ciselées, l'huile et le vinaigre. Ajoutez éventuellement quelques gouttes de Tabasco selon votre goût.",
+      "Réservez au moins 1 h au frais avant de servir."
+      ],      
+    "type_recette": "Veggie",
+    "temps_prepa": 0.5,
+    "image": "taboule.jpg", 
+    "Personne": 4
+  },
+  {
+    "titre": "Bœuf Bourguignon",
+    "ingredients": [
+      {
+        "nom": "paleron de bœuf",
+        "quantite": "1.5",
+        "unite": "kg"
+      },
+      {
+        "nom": "carottes",
+        "quantite": "4",
+        "unite": null
+      },
+      {
+        "nom": "oignons",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "gousses d'ail",
+        "quantite": "4",
+        "unite": null
+      },
+      {
+        "nom": "poireau",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "vin rouge",
+        "quantite": "1",
+        "unite": "l"
+      },
+      {
+        "nom": "thym frais",
+        "quantite": "3",
+        "unite": "branches"
+      },
+      {
+        "nom": "laurier frais",
+        "quantite": "3",
+        "unite": "feuilles"
+      },
+      {
+        "nom": "poivre",
+        "quantite": "1",
+        "unite": "càc"
+      },
+      {
+        "nom": "fond de bœuf",
+        "quantite": "1",
+        "unite": "l"
+      },
+      {
+        "nom": "farine",
+        "quantite": "30",
+        "unite": "g"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "60",
+        "unite": "g"
+      },
+      {
+        "nom": "gelée de groseille",
+        "quantite": "1",
+        "unite": "càc"
+      },
+      {
+        "nom": "huile de tournesol",
+        "quantite": "3",
+        "unite": "càs"
+      },
+      {
+        "nom": "Sel - poivre",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "myrtilles ou mûres fraîches",
+        "quantite": "2",
+        "unite": "càs"
+      }
+    ],
+    "instructions": [
+      "Épluchez les carottes, puis taillez-les en tronçons. Épluchez les oignons et les gousses d'ail, dégermez l'ail puis hachez-les. Prélevez la première feuille du blanc de poireau, puis taillez le reste en tronçons.",
+      "Préparez le bouquet garni : enveloppez 2 feuilles de laurier et 2 branches de thym dans la feuille de poireau réservée, puis fixez le tout avec de la ficelle alimentaire.",
+      "Taillez le paleronon en cubes réguliers.",
+      "Placez la viande, les légumes, le bouquet garni et le poivre mignonnette dans une marmite, puis ajoutez 80 cl de vin rouge et le fond de bœuf. Couvrez et laissez mariner 1 h 30 au frais. Pour une saveur plus corsée, mariner plus longtemps.",
+      "Récupérez la viande et la garniture. Réservez la marinade.",
+      "Préchauffez le four à 200 °C (th. 6-7).",
+      "Faites chauffer l'huile dans une marmite, puis faites-y dorer la viande sur chaque face. Ajoutez la farine et mélangez pour bien enrober les cubes de viande. Enfournez pour 10 min.",
+      "Ajoutez la garniture et la marinade, puis laissez mijoter au moins 1 h 45 sur feu doux.",
+      "Lorsque la viande est cuite, égouttez-la avec la garniture et versez le jus de cuisson dans une casserole.",
+      "Coupez le beurre en dés. Faites réduire le jus de cuisson avec le reste du vin rouge et le sucre jusqu'à l'obtention d'une consistance sirupeuse, puis les dés de beurre en fouettant. Ajoutez la gelée de groseille, le laurier et le thym restants, du sel et du poivre, et éventuellement les fruits frais.",
+      "Servez la viande avec la garniture et nappez-la de sauce."
+      ],      
+    "type_recette": "Boeuf",
+    "temps_prepa": 12,
+    "image": "boeuf_bourguignon.jpg", 
+    "Personne": 6
+  },
+  {
+    "titre": "Pâte à crêpes",
+    "ingredients": [
+      {
+        "nom": "beurre",
+        "quantite": "40",
+        "unite": "g"
+      },
+      {
+        "nom": "œufs",
+        "quantite": "4",
+        "unite": "unites"
+      },
+      {
+        "nom": "farine",
+        "quantite": "250",
+        "unite": "g"
+      },
+      {
+        "nom": "sucre en poudre",
+        "quantite": "40",
+        "unite": "g"
+      },
+      {
+        "nom": "lait",
+        "quantite": "60",
+        "unite": "cl"
+      },
+      {
+        "nom": "rhum",
+        "quantite": "1",
+        "unite": "CàS"
+      }
+    ],
+    "instructions": [
+      "Faites fondre le beurre.",
+      "Dans un cul-de-poule, fouettez les œufs avec la farine et le sucre.",
+      "Incorporez le lait et la fleur d'oranger en fouettant énergiquement.",
+      "Ajoutez pour finir le beurre fondu et fouettez bien jusqu'à l'obtention d'une pâte parfaitement lisse.",
+      "Laissez reposer au moins 1 h au frais avant de cuire les crêpes."
+      ],      
+    "type_recette": "Pate",
+    "temps_prepa": 0.2,
+    "image": "pate_a_crepes.jpg", 
+    "Personne": 6
+  },
+  {
+    "titre": "Pâte Brisée",
+    "ingredients": [
+      {
+        "nom": "farine",
+        "quantite": "200",
+        "unite": "g"
+      },
+      {
+        "nom": "jaune d'œuf",
+        "quantite": "1",
+        "unite": "unite"
+      },
+      {
+        "nom": "eau",
+        "quantite": "4",
+        "unite": "cl"
+      },
+      {
+        "nom": "sel",
+        "quantite": "2",
+        "unite": "pincees"
+      },
+      {
+        "nom": "beurre mou",
+        "quantite": "100",
+        "unite": "g"
+      }
+    ],
+    "instructions": [
+      "Mettez la farine dans un cul-de-poule et creusez un puits au centre.",
+      "Versez le jaune d'œuf, l'eau et le sel dans le puits, puis pétrissez à la main en incorporant progressivement la farine.",
+      "Pour finir, coupez le beurre en morceaux et incorporez-le petit à petit. Pétrissez à la main jusqu'à l'obtention d'une boule de pâte lisse et homogène.",
+      "Préchauffez le four à 180 °C.",
+      "Déposez votre pâte dans un moule à tarte ou dans un cercle ajustable sur le tapis de cuisson. Garnissez de légumes secs (haricots secs, lentilles...) jusqu'en haut de la pâte puis enfournez 15 à 20 min pour une cuisson à blanc."
+      ],      
+    "type_recette": "Pate",
+    "temps_prepa": 0.25,
+    "image": "pate_brisee.jpg", 
+    "Personne": 6
+  },
+  {
+    "titre": "Cordons-Bleus",
+    "ingredients": [
+      {
+        "nom": "volaille entière ou suprêmes de volaille",
+        "quantite": "1",
+        "unite": "unite"
+      },
+      {
+        "nom": "tranches de jambon blanc",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "tranches d'emmental",
+        "quantite": "4",
+        "unite": null
+      },
+      {
+        "nom": "farine",
+        "quantite": "80",
+        "unite": "g"
+      },
+      {
+        "nom": "chapelure fine",
+        "quantite": "120",
+        "unite": "g"
+      },
+      {
+        "nom": "œufs",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "huile de colza",
+        "quantite": "1.5",
+        "unite": "càs"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "40",
+        "unite": "g"
+      },
+      {
+        "nom": "Sel - poivre",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Découpez les ailes et les cuisses de la volaille, pour ne garder que les suprêmes. Réservez le coffre, les ailes et les cuisses au frais pour une autre recette.",
+      "Enlevez la peau des suprêmes, puis taillez-les en deux dans l'épaisseur. Ouvrez-les et placez-les entre 2 feuilles de papier cuisson. Aplatissez-les en tapant dessus avec un rouleau à pâtisserie, puis quadrillez la chair avec un petit couteau.",
+      "Assaisonnez les suprêmes, puis garnissez chacun de 1 tranche de jambon entre 2 tranches d'emmental. Refermez-les.",
+      "Mettez la farine dans une assiette creuse et la chapelure dans une autre assiette.",
+      "Battez les œufs en omelette dans une troisième assiette.",
+      "Trempez les cordons-bleus dans la farine, puis dans les œufs battus et enfin dans la chapelure. Trempez-les une seconde fois dans les œufs, puis dans la chapelure.",
+      "Faites chauffer l'huile et le beurre dans une grande poêle, puis faites dorer les cordons-bleus sur chaque face."
+      ],      
+    "type_recette": "Poulet",
+    "temps_prepa": 1,
+    "image": "cordons_bleus.jpg", 
+    "Personne": 2
+  },
+  {
+    "titre": "Salade de Haricots Blancs",
+    "ingredients": [
+      {
+        "nom": "haricots tarbais secs",
+        "quantite": "240",
+        "unite": "g"
+      },
+      {
+        "nom": "carotte",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "oignon",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "ail",
+        "quantite": "3",
+        "unite": "gousses"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "20",
+        "unite": "g"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": "15",
+        "unite": "cl"
+      },
+      {
+        "nom": "thym frais",
+        "quantite": "2",
+        "unite": "branches"
+      },
+      {
+        "nom": "fond blanc de volaille",
+        "quantite": "1",
+        "unite": "l"
+      },
+      {
+        "nom": "lard fumé",
+        "quantite": "150",
+        "unite": "g"
+      },
+      {
+        "nom": "ciboulette fraîche",
+        "quantite": "10",
+        "unite": "brins"
+      },
+      {
+        "nom": "Huile de colza",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "Sel - poivre",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Faites tremper les haricots dans un cul-de-poule rempli d'eau froide pendant au moins 1 h (idéalement toute une nuit).",
+      "Épluchez la carotte et l'oignon, puis taillez-les en mirepoix (petits dés). Épluchez les gousses d'ail, dégermez-les puis écrasez-les.",
+      "Faites chauffer le beurre et 1 cuil. à soupe d'huile de colza dans une marmite, puis faites-y suer l'oignon quelques minutes. Ajoutez les haricots égouttés, la carotte, l'ail et le thym, puis versez le fond blanc de volaille. Assaisonnez avec du gros sel et faites cuire 30 min environ.",
+      "Pendant ce temps, taillez le lard en petits lardons, puis faites-les griller dans une poêle avec 1 cuil. à soupe d'huile de colza.",
+      "Lorsque les haricots sont cuits, ajoutez les lardons et leur gras. Ajoutez du poivre et mélangez bien. Égouttez et réservez au frais.",
+      "Ciselez la ciboulette, puis mélangez-la dans un bol avec le vinaigre et l'huile d'olive.",
+      "Assaisonnez les haricots avec le mélange vinaigre-huile, du sel fin et du poivre. Veillez à ce que les haricots soient bien enrobés de vinaigrette."
+      ],      
+    "type_recette": "Porc",
+    "temps_prepa": 0.5,
+    "image": "salade_de_haricots_blancs.jpg", 
+    "Personne": 4
+  },
+   {
+    "titre": "Macédoine de Légumes",
+    "ingredients": [
+      {
+        "nom": "pommes de terre",
+        "quantite": "2",
+        "unite": "unites"
+      },
+      {
+        "nom": "navets",
+        "quantite": "2",
+        "unite": "unites"
+      },
+      {
+        "nom": "carottes",
+        "quantite": "2",
+        "unite": "unites"
+      },
+      {
+        "nom": "haricots verts",
+        "quantite": "120",
+        "unite": "g"
+      },
+      {
+        "nom": "persil frais",
+        "quantite": "4",
+        "unite": "branches"
+      },
+      {
+        "nom": "estragon frais",
+        "quantite": "4",
+        "unite": "branches"
+      },
+      {
+        "nom": "Sel - poivre",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "petits pois écossés",
+        "quantite": "120",
+        "unite": "g"
+      },
+      {
+        "nom": "jaunes d'œufs",
+        "quantite": "2",
+        "unite": "unites"
+      },
+      {
+        "nom": "moutarde de Dijon",
+        "quantite": "15",
+        "unite": "g"
+      },
+      {
+        "nom": "vinaigre d'alcool blanc",
+        "quantite": "2",
+        "unite": "càc"
+      },
+      {
+        "nom": "huile de tournesol",
+        "quantite": "20",
+        "unite": "cl"
+      }
+    ],
+    "instructions": [
+      "Épluchez les pommes de terre, les navets et les carottes, puis taillez-les en macédoine (petits cubes).",
+      "Équeutez les haricots verts, puis coupez-les.",
+      "Effeuillez le persil et l'estragon, puis ciselez-les.",
+      "Portez une casserole d'eau salée à ébullition, puis mettez-y à blanchir les légumes les uns après les autres : 2 min pour les navets, 2 min pour les carottes, 3 min pour les pommes de terre, 1 min pour les haricots et les petits pois. Récupérez les légumes au fur et à mesure avec une araignée, puis réservez-les 30 min au frais.",
+      "Pendant ce temps, préparez la mayonnaise dans un cul-de-poule.",
+      "Lorsque tous les légumes sont bien froids, ajoutez-les dans le cul-de-poule et mélangez pour les enrober de mayonnaise.",
+      "Ajoutez les herbes, du sel et du poivre."
+      ],      
+    "type_recette": "Veggie",
+    "temps_prepa": 0.5,
+    "image": "macedoine_de_legumes.jpg", 
+    "Personne": 4
+  },
+  {
+    "titre": "Gnocchis",
+    "ingredients": [
+      {
+        "nom": "pommes de terre",
+        "quantite": "500",
+        "unite": "g"
+      },
+      {
+        "nom": "sel",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "estragon",
+        "quantite": "4",
+        "unite": "branches"
+      },
+      {
+        "nom": "parmesan",
+        "quantite": "50",
+        "unite": "g"
+      },
+      {
+        "nom": "jaune d'œuf",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "farine",
+        "quantite": "200",
+        "unite": "g"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": "4",
+        "unite": "càs"
+      },
+      {
+        "nom": "piment en poudre",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Épluchez les pommes de terre, puis taillez-les en gros cubes. Faites-les cuire 20 min dans une grande casserole d'eau bouillante salée (départ à l'eau froide).",
+      "Pendant ce temps, effeuillez l'estragon, puis hachez-le.",
+      "Râpez le parmesan.",
+      "Égouttez les cubes de pomme de terre, puis placez-les dans le bol d'un batteur. Ajoutez le jaune d'œuf, la farine, le parmesan, la moitié de l'huile, l'estragon et le piment. Salez et mélangez bien jusqu'à ce que tous les ingrédients soient bien incorporés au mélange.",
+      "Sur un plan de travail, roulez la préparation en fin boudin. Taillez-le en petits morceaux réguliers et farinez-les. Roulez-les ensuite sur le dos d'une fourchette pour leur donner la forme et le dessin caractéristiques des gnocchis.",
+      "Portez une grande casserole d'eau salée à ébullition, puis plongez-y les gnocchis. Dès qu'ils remontent à la surface, récupérez-les à l'aide d'une araignée et égouttez-les.",
+      "Faites chauffer le reste de l'huile dans une poêle, puis faites-y revenir les gnocchis en remuant."
+    ],
+    "type_recette": "Pate",
+    "temps_prepa": 1,
+    "image": "gnocchi.jpg",
+    "Personne": 4
+  },
+  {
+    "titre": "Pommes Paillasson",
+    "ingredients": [
+      {
+        "nom": "pommes de terre",
+        "quantite": "800",
+        "unite": "g"
+      },
+      {
+        "nom": "persil frais",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "sel",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "piment d'Espelette en poudre",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "beurre",
+        "quantite": "90",
+        "unite": "g"
+      },
+      {
+        "nom": "huile de colza",
+        "quantite": "1",
+        "unite": "càs"
+      }
+    ],
+    "instructions": [
+      "Épluchez les pommes de terre, rincez-les, puis taillez-les en julienne à l'aide d'une mandoline ou d'un couteau (à partir de cette étape, il ne faut plus les rincer).",
+      "Hachez finement le persil.",
+      "Dans un cul-de-poule, mélangez les pommes de terre râpées avec le persil, le sel et le piment.",
+      "Faites chauffer l'huile et 20 g de beurre dans une poêle. Déposez-y les pommes de terre taillées, de façon à former une galette. Coupez 70 g de beurre en petits dés et répartissez-en la moitié tout autour (réservez l'autre moitié), puis faites cuire 15 min à feu doux.",
+      "À l'aide d'une assiette renversée sur la poêle, retournez la pomme paillasson puis remettez-la dans la poêle pour 15 min de cuisson supplémentaires en ajoutant les dés de beurre réservés."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.5,
+    "image": "pommes_paillasson.jpg",
+    "Personne": 4
+  },
+  {
+    "titre": "Filets de Poisson au Beurre Blanc",
+    "ingredients": [
+      {
+        "nom": "échalotes",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "fumet de poisson",
+        "quantite": "25",
+        "unite": "cl"
+      },
+      {
+        "nom": "vin blanc",
+        "quantite": "20",
+        "unite": "cl"
+      },
+      {
+        "nom": "poisson blanc",
+        "quantite": "550",
+        "unite": "g"
+      },
+      {
+        "nom": "huile d'olive",
+        "quantite": "2",
+        "unite": "càs"
+      },
+      {
+        "nom": "crème liquide",
+        "quantite": "25",
+        "unite": "cl"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "50",
+        "unite": "g"
+      },
+      {
+        "nom": "ciboulette fraîche",
+        "quantite": "10",
+        "unite": "brins"
+      },
+      {
+        "nom": "citron (jus)",
+        "quantite": "0.5",
+        "unite": null
+      },
+      {
+        "nom": "farine",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "sel - poivre",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "piment en poudre",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Épluchez et émincez les échalotes.",
+      "Dans une casserole, faites réduire le fumet et le vin blanc de moitié avec les échalotes.",
+      "Taillez le poisson en 4 pavés et panez-les dans la farine, en retirant l'excédent.",
+      "Faites chauffer l'huile dans une poêle et saisissez-y les pavés de poisson.",
+      "Ajoutez la crème au vin blanc et au fumet sans faire bouillir, puis ajoutez le beurre, le jus du citron et assaisonnez avec du sel, du poivre et du piment.",
+      "Ciselez la ciboulette.",
+      "Nappez le poisson de sauce et parsemez de ciboulette ciselée. Servez chaud."
+      ],      
+    "type_recette": "Poisson",
+    "temps_prepa": 0.25,
+    "image": "filets_de_poisson_au_beurre_blanc.jpg", 
+    "Personne": 4
+  },
+  {
+    "titre": "Pâte à burgers",
+    "ingredients": [
+      {
+        "nom": "lait",
+        "quantite": "23",
+        "unite": "cl"
+      },
+      {
+        "nom": "levure fraîche de boulanger",
+        "quantite": "18",
+        "unite": "g"
+      },
+      {
+        "nom": "beurre mou",
+        "quantite": "40",
+        "unite": "g"
+      },
+      {
+        "nom": "farine",
+        "quantite": "500",
+        "unite": "g"
+      },
+      {
+        "nom": "jaunes d'œufs",
+        "quantite": "3",
+        "unite": null
+      },
+      {
+        "nom": "sel",
+        "quantite": "4",
+        "unite": "pincées"
+      },
+      {
+        "nom": "graines de sésame",
+        "quantite": "60",
+        "unite": "g"
+      }
+    ],
+    "instructions": [
+      "Faites légèrement tiédir 10 cl de lait. Émiettez la levure dans un bol, puis ajoutez le lait tiède. Réservez 10 à 15 min.",
+      "Faites tiédir le reste du lait. Coupez le beurre en morceaux. Dans un cul-de-poule ou le bol d'un batteur, déposez la farine, 2 jaunes d'œufs, la levure réhydratée et le sel. Ajoutez le lait tiède et le beurre, puis pétrissez 12 min environ, jusqu'à l'obtention d'une pâte lisse et élastique.",
+      "Déposez-la dans un cul-de-poule et couvrez-la d'un linge légèrement humide. Laissez pousser au moins 1 h 30 dans un endroit chaud jusqu'à ce que la pâte double de volume.",
+      "Préchauffez le four à 200 °C (th. 6-7).",
+      "Divisez la pâte en 8 morceaux et roulez-les entre vos paumes pour obtenir 8 boules régulières. Disposez-les sur une plaque tapissée d'une feuille de papier cuisson.",
+      "Battez le jaune d'œuf restant dans un bol avec un trait d'eau, puis badigeonnez-en les petits pains à l'aide d'un pinceau.",
+      "Parsemez de graines de sésame, puis enfournez pour 15 à 20 min."
+      ],      
+    "type_recette": "Pate",
+    "temps_prepa": 0.5,
+    "image": "pate_a_burgers.jpg", 
+    "Personne": 8
+  } 
 
 ]

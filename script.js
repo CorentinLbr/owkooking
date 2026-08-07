@@ -76,7 +76,7 @@ searchEl.addEventListener('input', function () {
   const filtered = RECETTES.filter(function (r) { // on retient les recettes dont le titre contient q
     return r.titre.toLowerCase().includes(q);
   });
-  countEl.textContent = filtered.length + ' recette' + (filtered.length > 1 ? 's' : ''); // on met à jour le compteur (+avec un "s" au pluriel si besoin)
+  countEl.textContent = 'Résultats : ' + filtered.length + ' recette' + (filtered.length > 1 ? 's' : ''); // on met à jour le compteur (+avec un "s" au pluriel si besoin)
   render(filtered); // on ré-affiche la liste filtrée via render()
 });
 
@@ -99,12 +99,12 @@ boutons.forEach(btn => {                        // Pour chaque bouton de filtre.
             r.type_recette.toLowerCase().includes(type)
         );
 
-        countEl.textContent = filtered.length + ' recette' + (filtered.length > 1 ? 's' : '');
+        countEl.textContent = 'Résultats : ' + filtered.length + ' recette' + (filtered.length > 1 ? 's' : '');
         render(filtered);
     });
 });
 
 // Main
 RECETTES.sort(function (a, b) { return a.titre.localeCompare(b.titre, 'fr'); }); // Au chargement de la page : on trie RECETTES (qui doit etre ouvert avant ce script) par ordre alphabétique
-countEl.textContent = RECETTES.length + ' recettes'; // on affiche le nombre total
+countEl.textContent = 'Résultats : ' + RECETTES.length + ' recettes'; // on affiche le nombre total
 render(RECETTES); // on appel render
