@@ -4367,6 +4367,943 @@ const RECETTES = [
     "temps_prepa": 0.5,
     "image": "pate_a_burgers.jpg", 
     "Personne": 8
-  } 
+  } ,
+  {
+    "titre": "Velouté de lentilles corail et chou-fleur",
+    "ingredients": [
+      {
+        "nom": "Lentilles corail rincées",
+        "quantite": "120",
+        "unite": "g"
+      },
+      {
+        "nom": "Chou-fleur en fleurettes",
+        "quantite": "400",
+        "unite": "g"
+      },
+      {
+        "nom": "Tranches de bacon dégraissées",
+        "quantite": "8",
+        "unite": "tranches"
+      },
+      {
+        "nom": "Crème végétale",
+        "quantite": "20",
+        "unite": "cl"
+      }
+    ],
+    "instructions": [
+      "Faites cuire les lentilles et le chou-fleur 15 à 20 min dans une casserole avec 1 l d'eau. Salez en fin de cuisson. Le chou-fleur doit être tendre.",
+      "Pendant ce temps, faites griller les tranches de bacon 8 à 10 min sous le gril du four à 240 °C.",
+      "Égouttez et mélangez les lentilles et le chou-fleur avec la crème végétale et 4 tranches de bacon grillé. Mixez jusqu'à obtenir une texture lisse et onctueuse. Poivrez.",
+      "Décorez les assiettes avec des morceaux de bacon grillé restant et servez tiède."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.42,
+    "image": "veloute_de_lentilles_corail_et_chou-fleur.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Dahl de pois cassés aux amandes",
+    "ingredients": [
+      {
+        "nom": "Pois cassés secs",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "Amandes effilées",
+        "quantite": 40,
+        "unite": "g"
+      },
+      {
+        "nom": "Carottes",
+        "quantite": 2,
+        "unite": null
+      },
+      {
+        "nom": "Oignon jaune",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Boisson végétale de noix de coco",
+        "quantite": 25,
+        "unite": "cl"
+      },
+      {
+        "nom": "Ail",
+        "quantite": 1,
+        "unite": "gousse"
+      },
+      {
+        "nom": "Coriandre",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Gingembre",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Curry",
+        "quantite": 3,
+        "unite": "càs"
+      },
+      {
+        "nom": "Oignon",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Faites tremper les pois cassés 2 h dans de l'eau froide, puis rincez-les et jetez l'eau.",
+      "Dans une casserole, faites revenir l'oignon jaune avec un peu d'huile. Ajoutez les carottes, l'ail et les épices. Remuez pendant quelques minutes. Versez les pois cassés et couvrez d'eau. Portez à ébullition, puis baissez le feu et laissez mijoter 45 min à feu doux.",
+      "Dès que les pois cassés sont cuits, versez la boisson végétale de coco, ajoutez l'oignon nouveau et les amandes. Laissez mijoter 2 ou 3 min à feu doux."
+      ],      
+    "type_recette": "Veggie",
+    "temps_prepa": 1.25,
+    "image": "dahl_de_pois_casses_aux_amandes.jpg", 
+    "Personne": 4
+  },
+  {
+    "titre": "Porc, riz frit et pois gourmands",
+    "ingredients": [
+      {
+        "nom": "Échine de porc",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "Pois gourmands",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "Riz thaï cuit",
+        "quantite": 140,
+        "unite": "g"
+      },
+      {
+        "nom": "Miel liquide",
+        "quantite": 2,
+        "unite": "càs"
+      },
+      {
+        "nom": "Huile de tournesol",
+        "quantite": 5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Cinq épices",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Huile de sésame",
+        "quantite": 5,
+        "unite": "cl"
+      }
+    ],
+    "instructions": [
+      "Saisissez l'échine de porc dans le wok avec l'huile de tournesol. Salez et poivrez, puis laissez roussir la viande 10 min sur feu moyen en remuant.",
+      "Versez le miel et laissez caraméliser 5 min sur feu moyen. Ajoutez le riz et le mélange de cinq épices. Laissez cuire encore 6 à 8 min sur feu vif en mélangeant.",
+      "Ajoutez les pois gourmands et l'huile de sésame, mélangez rapidement sur feu vif et servez aussitôt."
+    ],
+    "type_recette": "Porc",
+    "temps_prepa": 0.67,
+    "image": "porc_riz_frit_pois_gourmands.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Bœuf aux oignons et pois gourmands",
+    "ingredients": [
+      {
+        "nom": "Bavette de bœuf",
+        "quantite": 400,
+        "unite": "g"
+      },
+      {
+        "nom": "Pois gourmands",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "Oignons",
+        "quantite": 2,
+        "unite": null
+      },
+      {
+        "nom": "Sauce soja",
+        "quantite": 4,
+        "unite": "càs"
+      },
+      {
+        "nom": "Gingembre haché",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Fécule de maïs",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Huile de tournesol",
+        "quantite": 4,
+        "unite": "càs"
+      },
+      {
+        "nom": "Cassonade",
+        "quantite": 2,
+        "unite": "càc"
+      }
+    ],
+    "instructions": [
+      "Dans un bol, délayez la fécule avec 10 cl d'eau et la sauce soja.",
+      "Faites sauter les oignons 4 min à la poêle ou dans un wok dans l'huile très chaude avec le gingembre et la cassonade. Retirez-les, puis faites sauter le bœuf et les pois gourmands 2 min. Le bœuf doit rester saignant.",
+      "Remettez les oignons, le contenu du bol, et faites cuire 1 min de plus sans cesser de remuer, juste le temps que la sauce épaississe."
+    ],
+    "type_recette": "Boeuf",
+    "temps_prepa": 0.25,
+    "image": "boeuf_aux_oignons_et_pois_gourmands.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Gratin mexicain",
+    "ingredients": [
+      {
+        "nom": "Tomates concassées",
+        "quantite": 400,
+        "unite": "g"
+      },
+      {
+        "nom": "Haricots rouges",
+        "quantite": 1,
+        "unite": "boîte"
+      },
+      {
+        "nom": "Poivron vert",
+        "quantite": 0.5,
+        "unite": null
+      },
+      {
+        "nom": "Chips au maïs",
+        "quantite": 0.5,
+        "unite": "paquet"
+      },
+      {
+        "nom": "Emmental râpé",
+        "quantite": 80,
+        "unite": "g"
+      },
+      {
+        "nom": "Crème fraîche",
+        "quantite": 15,
+        "unite": "cl"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Oignon",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Ail",
+        "quantite": 1,
+        "unite": "gousse"
+      }
+    ],
+    "instructions": [
+      "Dans une poêle, mettez à chauffer l'huile et faites revenir le demi-poivron et l'oignon, l'ail et les haricots rouges pendant 15 min.",
+      "Écrasez les haricots à la fourchette, ajoutez les tomates et remuez.",
+      "Préchauffez le gril du four. Mélangez l'emmental et la crème. Salez et poivrez. Versez la préparation aux haricots dans un plat à gratin. Recouvrez de crème et faites gratiner 25 min. Servez accompagné de chips de maïs."
+    ],
+    "type_recette": "Fromagé",
+    "temps_prepa": 0.92,
+    "image": "gratin_mexicain.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Rice and Beans",
+    "ingredients": [
+      {
+        "nom": "Tomates cerises",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "Riz basmati",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "Haricots rouges en conserve",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "Chorizo en cubes",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "Persil haché",
+        "quantite": 8,
+        "unite": "brins"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": 1,
+        "unite": "càs"
+      }
+    ],
+    "instructions": [
+      "Dans une poêle, faites revenir le chorizo dans 1 càs d'huile d'olive. Ajoutez le riz, mélangez et versez 50 cl d'eau. Mélangez, puis couvrez et laissez cuire 5 min à feu moyen.",
+      "Incorporez les tomates au riz et poursuivez la cuisson 5 à 7 min.",
+      "Ajoutez les haricots rouges et le persil en fin de cuisson. Assaisonnez et servez aussitôt."
+    ],
+    "type_recette": "Porc",
+    "temps_prepa": 0.37,
+    "image": "rice_and_beans.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Pommes de terre à la mexicaine",
+    "ingredients": [
+      {
+        "nom": "Pommes de terre",
+        "quantite": 800,
+        "unite": "g"
+      },
+      {
+        "nom": "Viande hachée",
+        "quantite": 350,
+        "unite": "g"
+      },
+      {
+        "nom": "Haricots rouges en conserve",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "Sauce tomate",
+        "quantite": 420,
+        "unite": "g"
+      },
+      {
+        "nom": "Cheddar râpé",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Faites cuire les pommes de terre 15 min dans de l'eau bouillante salée.",
+      "Pendant ce temps, faites revenir la viande 5 min dans une poêle bien chaude et huilée.",
+      "Ajoutez les haricots rouges, les pommes de terre en morceaux et la sauce tomate dans la poêle. Mélangez 5 min sur le feu, salez et poivrez. Servez parsemé de cheddar."
+    ],
+    "type_recette": "Boeuf",
+    "temps_prepa": 0.42,
+    "image": "pommes_de_terre_a_la_mexicaine.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Steaks de haricots rouges",
+    "ingredients": [
+      {
+        "nom": "Haricots rouges secs",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "Oignon",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Gousse d'ail",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Tahini",
+        "quantite": 2,
+        "unite": "càs"
+      },
+      {
+        "nom": "Farine de pois chiches",
+        "quantite": 2,
+        "unite": "càs"
+      },
+      {
+        "nom": "Coriandre en poudre",
+        "quantite": 1,
+        "unite": "càc"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "La veille, faites tremper les haricots 12 h dans un grand volume d'eau froide.",
+      "Le lendemain, rincez-les, puis faites-les cuire à l'eau 1 h 30. Dans une poêle, faites revenir l'oignon et l'ail dans un peu d'huile, puis mixez-les avec les haricots, le tahini et la farine de pois chiches. Salez, poivrez et ajoutez la coriandre.",
+      "Formez des boules de pâte avec vos mains, aplatissez-les pour former des steaks et placez-les 30 min au frais.",
+      "Faites cuire les steaks dans un peu d'huile 4 min de chaque côté."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 2.25,
+    "image": "steaks_de_haricots_rouges.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Poulet mijoté aux tomates et haricots rouges",
+    "ingredients": [
+      {
+        "nom": "Cuisses de poulet",
+        "quantite": 4,
+        "unite": null
+      },
+      {
+        "nom": "Tomates concassées",
+        "quantite": 800,
+        "unite": "g"
+      },
+      {
+        "nom": "Haricots rouges en conserve",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "Gousses d'ail hachées",
+        "quantite": 6,
+        "unite": null
+      },
+      {
+        "nom": "Cube de bouillon de volaille",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Faites chauffer un filet d'huile dans une cocotte et faites-y dorer le poulet de chaque côté 10 min environ.",
+      "Ajoutez les tomates avec leur jus, l'ail et 15 cl d'eau. Portez à ébullition, puis baissez le feu et laissez mijoter 30 min à couvert.",
+      "Ajoutez les haricots rouges, du sel et du poivre, puis poursuivez la cuisson 10 min."
+    ],
+    "type_recette": "Poulet",
+    "temps_prepa": 1.0,
+    "image": "poulet_mijote_aux_tomates_et_haricots_rouges.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Boulettes de pois chiches et de patate douce",
+    "ingredients": [
+      {
+        "nom": "Patate douce",
+        "quantite": 250,
+        "unite": "g"
+      },
+      {
+        "nom": "Pois chiches en conserve",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "Échalote",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Gousse d'ail",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Cumin",
+        "quantite": 1,
+        "unite": "càc"
+      },
+      {
+        "nom": "Graines de sésame",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Coriandre",
+        "quantite": null,
+        "unite": "quelques brins"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Faites cuire la patate douce 10 min à la vapeur. Mixez-la avec les pois chiches, quelques brins de coriandre, 1 càc de cumin, l'ail et l'échalote pour obtenir une purée épaisse.",
+      "Formez 10 boulettes entre vos mains légèrement humides et déposez-les sur une plaque recouverte de papier sulfurisé. Badigeonnez-les d'un peu d'huile à l'aide d'un pinceau et parsemez-les de sésame. Enfournez pour 20 min à 180 °C."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.5,
+    "image": "boulettes_de_pois_chiches_et_de_patate_douce.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Soupe mexicaine",
+    "ingredients": [
+      {
+        "nom": "Haricots rouges en conserve",
+        "quantite": 400,
+        "unite": "g"
+      },
+      {
+        "nom": "Tomates concassées",
+        "quantite": 190,
+        "unite": "g"
+      },
+      {
+        "nom": "Chorizo fort",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "Maïs en conserve",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "Carotte",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Poireau",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Poivron rouge",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Oignon rouge",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Piment en flocons",
+        "quantite": 0.5,
+        "unite": "càc"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Épices (cumin, origan séché, paprika)",
+        "quantite": 1,
+        "unite": "càs"
+      }
+    ],
+    "instructions": [
+      "Dans une cocotte, faites revenir le poireau, le poivron, la carotte et le chorizo avec l'huile 10 min.",
+      "Ajoutez les épices, faites revenir 2 min. Ajoutez les tomates, 1,5 l d'eau et l'origan. Couvrez, portez à ébullition et laissez cuire au moins 30 min à couvert et à petits bouillons. Après 20 min de cuisson, ajoutez les haricots.",
+      "Prélevez 3 louches, mixez-les et rajoutez-les à la soupe pour la rendre plus onctueuse. Ajoutez le maïs, parsemez de coriandre et servez avec des chips tortillas."
+    ],
+    "type_recette": "Porc",
+    "temps_prepa": 0.92,
+    "image": "soupe_mexicaine.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Tajine de lentilles et patates douces",
+    "ingredients": [
+      {
+        "nom": "Lentilles vertes",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "Patates douces",
+        "quantite": 2,
+        "unite": null
+      },
+      {
+        "nom": "Oignon rouge",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Dates",
+        "quantite": 6,
+        "unite": null
+      },
+      {
+        "nom": "Bâton de cannelle",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Graines de cumin",
+        "quantite": 1,
+        "unite": "càs"
+      }
+    ],
+    "instructions": [
+      "Dans le tajine chaud, colorez les patates douces à l'huile et réservez-les. Faites revenir l'oignon, puis ajoutez les lentilles, les épices et les dates, et couvrez d'eau chaude salée (trois fois le volume des lentilles).",
+      "Laissez mijoter 10 min à couvert et à feu moyen. Ajoutez les patates douces et poursuivez la cuisson 15 min."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.75,
+    "image": "tajine_de_lentilles_et_patates_douces.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Galettes de lentilles corail aux carottes",
+    "ingredients": [
+      {
+        "nom": "Lentilles corail",
+        "quantite": 60,
+        "unite": "g"
+      },
+      {
+        "nom": "Carottes",
+        "quantite": 3,
+        "unite": null
+      },
+      {
+        "nom": "Échalotes",
+        "quantite": 2,
+        "unite": null
+      },
+      {
+        "nom": "Chapelure",
+        "quantite": 40,
+        "unite": "g"
+      },
+      {
+        "nom": "Farine",
+        "quantite": 40,
+        "unite": "g"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": 1,
+        "unite": "filet"
+      }
+    ],
+    "instructions": [
+      "Placez les lentilles corail, les carottes et les échalotes dans une grande casserole d'eau. Laissez cuire 15 min, puis égouttez-les.",
+      "Mixez le tout avec la chapelure et la farine, salez et poivrez. Mélangez jusqu'à obtenir une pâte homogène.",
+      "Formez des galettes et faites-les cuire dans une poêle avec un peu d'huile 4 min de chaque côté."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.58,
+    "image": "galettes_de_lentilles_corail_aux_carottes.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Parmentier de deux patates aux lentilles",
+    "ingredients": [
+      {
+        "nom": "Lentilles vertes",
+        "quantite": 120,
+        "unite": "g"
+      },
+      {
+        "nom": "Pommes de terre",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "Patates douces à chair jaune",
+        "quantite": 300,
+        "unite": "g"
+      },
+      {
+        "nom": "Lardons",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "Beurre",
+        "quantite": 20,
+        "unite": "g"
+      },
+      {
+        "nom": "Oignon",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Bouillon de légumes",
+        "quantite": 1,
+        "unite": "cube"
+      },
+      {
+        "nom": "Lait",
+        "quantite": 5,
+        "unite": "cl"
+      },
+      {
+        "nom": "Persil haché",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Emmental râpé",
+        "quantite": 50,
+        "unite": "g"
+      }
+    ],
+    "instructions": [
+      "Faites cuire les lentilles 20 min dans une casserole avec trois fois leur volume d'eau et le cube de bouillon.",
+      "Pendant ce temps, dans une autre casserole, faites cuire les pommes de terre et les patates douces 20 min à l'eau bouillante salée.",
+      "Dans une poêle, faites revenir l'oignon avec les lardons. Dès que tout est bien coloré, retirez du feu.",
+      "Préchauffez le four à 220 °C. Égouttez les lentilles et mélangez-les aux lardons. Mettez-les dans un plat à four.",
+      "Écrasez les deux patates à la fourchette ou au presse-purée avec le beurre, le lait et le persil. Poivrez. Étalez la purée sur les lentilles, parsemez d'emmental et enfournez pour 10 min, jusqu'à ce que le dessus soit bien doré."
+    ],
+    "type_recette": "Fromagé",
+    "temps_prepa": 0.83,
+    "image": "parmentier_de_deux_patates_aux_lentilles.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Poulet à l'indienne, lentilles corail",
+    "ingredients": [
+      {
+        "nom": "Filets de poulet",
+        "quantite": 500,
+        "unite": "g"
+      },
+      {
+        "nom": "Lentilles corail",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "Oignon",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Boisson végétale de noix de coco",
+        "quantite": 20,
+        "unite": "cl"
+      },
+      {
+        "nom": "Mélange d'épices indiennes",
+        "quantite": 1,
+        "unite": "càc"
+      },
+      {
+        "nom": "Coriandre",
+        "quantite": null,
+        "unite": "quelques feuilles"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Faites chauffer un filet d'huile dans une cocotte et faites-y revenir l'oignon 3 min. Ajoutez le poulet et faites-le dorer 2 min.",
+      "Ajoutez le reste des ingrédients ainsi que 10 cl d'eau, puis mélangez.",
+      "Laissez mijoter à couvert 20 min, en remuant de temps en temps. Servez parsemé de coriandre."
+    ],
+    "type_recette": "Poulet",
+    "temps_prepa": 0.5,
+    "image": "poulet_a_l_indienne_lentilles_corail.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Salade de lentilles, riz aux amandes",
+    "ingredients": [
+      {
+        "nom": "Lentilles vertes",
+        "quantite": 100,
+        "unite": "g"
+      },
+      {
+        "nom": "Riz basmati",
+        "quantite": 150,
+        "unite": "g"
+      },
+      {
+        "nom": "Amandes effilées grillées",
+        "quantite": 4,
+        "unite": "càs"
+      },
+      {
+        "nom": "Citron",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": 4,
+        "unite": "càs"
+      },
+      {
+        "nom": "Oignons frits",
+        "quantite": 3,
+        "unite": "càs"
+      },
+      {
+        "nom": "Ras el-hanout",
+        "quantite": 1,
+        "unite": "càc"
+      }
+    ],
+    "instructions": [
+      "Faites cuire les lentilles 25 min à l'eau bouillante salée. Ajoutez le riz et faites cuire 5 à 10 min de plus (ils doivent rester al dente).",
+      "Égouttez dans une passoire et laissez refroidir. Mélangez avec l'huile, les épices, et le jus du citron selon votre goût. Salez et poivrez. Servez parsemé d'amandes et d'oignons frits."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.75,
+    "image": "salade_de_lentilles_riz_aux_amandes.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Dahl de lentilles, riz et cacahuètes",
+    "ingredients": [
+      {
+        "nom": "Lentilles corail",
+        "quantite": 200,
+        "unite": "g"
+      },
+      {
+        "nom": "Gousse d'ail hachée",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Riz",
+        "quantite": 1,
+        "unite": "verre"
+      },
+      {
+        "nom": "Curry",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "Cacahuètes hachées",
+        "quantite": 40,
+        "unite": "g"
+      },
+      {
+        "nom": "Oignon rouge ciselé",
+        "quantite": 1,
+        "unite": null
+      },
+      {
+        "nom": "Sauce yaourt à la coriandre",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "Citron",
+        "quantite": null,
+        "unite": null
+      },
+      {
+        "nom": "Coriandre ciselée",
+        "quantite": null,
+        "unite":null
+      }
+    ],
+    "instructions": [
+      "Placez les lentilles, l'oignon, l'ail, le curry et 70 cl d'eau dans une casserole, salez et portez à ébullition. Baissez, couvrez, et laissez mijoter 20 min.",
+      "Faites cuire le riz pendant 10 min.",
+      "Dans chaque bol, déposez les lentilles, le riz, la sauce au yaourt, puis parsemez de cacahuètes et de coriandre. Salez et poivrez."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.67,
+    "image": "dahl_de_lentilles_riz_et_cacahuetes.jpg",
+    "Personne": 2
+},
+{
+    "titre": "Gâteau moelleux aux pommes, poires et farine de sarrasin",
+    "ingredients": [
+      {
+        "nom": "Oeufs",
+        "quantite": "4",
+        "unite": null
+      },
+      {
+        "nom": "Sucre blond de canne",
+        "quantite": "100",
+        "unite": "g"
+      },
+      {
+        "nom": "Farine de sarrasin",
+        "quantite": "180",
+        "unite": "g"
+      },
+      {
+        "nom": "Poudre à lever (sans gluten)",
+        "quantite": "8",
+        "unite": "g"
+      },
+      {
+        "nom": "Cannelle",
+        "quantite": "0.5",
+        "unite": "cuillerée à café"
+      },
+      {
+        "nom": "Huile d'olive",
+        "quantite": "50",
+        "unite": "g"
+      },
+      {
+        "nom": "Poires (environ 300 g)",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "Pommes (environ 380 g)",
+        "quantite": "2",
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Dans un saladier, fouettez les 4 oeufs et le sucre, à l’aide d’un fouet électrique.",
+      "Incorporez peu à peu la farine, la levure, la cannelle et l’huile d’olive.",
+      "Pelez les pommes et les poires, coupez-les en deux pour ôter le trognon et coupez la chair en cubes de taille moyenne.",
+      "Mélangez-les à la pâte à gâteau.",
+      "Versez la pâte dans un moule à gâteau carré de 21 cm, recouvert de papier sulfurisé.",
+      "Faites cuire le gâteau environ 25 min dans le four préchauffé à 180°C.",
+      "À la fin de la cuisson, sortez le gâteau et laissez-le refroidir sur une grille."
+    ],
+    "type_recette": "Veggie",
+    "temps_prepa": 0.75,
+    "image": "gateau_moelleux_aux_pommes_poires.jpg",
+    "Personne": 8
+}
 
 ]
