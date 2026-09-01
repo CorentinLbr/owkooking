@@ -2903,9 +2903,9 @@ const RECETTES = [
         "unite": null
       },
       {
-        "nom": "cs de moutarde",
+        "nom": "moutarde",
         "quantite": "1",
-        "unite": null
+        "unite": "càs"
       },
       {
         "nom": "huile (tournesol, arachide, olive)",
@@ -3367,27 +3367,27 @@ const RECETTES = [
     "titre": "Muffins courgettes et lardons",
     "ingredients": [
       {
-        "nom": "Courgette",
+        "nom": "courgette",
         "quantite": 2,
         "unite": "pièce"
       },
       {
-        "nom": "Lardons",
+        "nom": "lardons",
         "quantite": 150,
         "unite": "g"
       },
       {
-        "nom": "Farine",
+        "nom": "farine",
         "quantite": 120,
         "unite": "g"
       },
       {
-        "nom": "Oignon",
+        "nom": "oignon",
         "quantite": 1,
         "unite": null
       },
       {
-        "nom": "Oeufs",
+        "nom": "oeufs",
         "quantite": 2,
         "unite": "pièces"
       },
@@ -3397,12 +3397,12 @@ const RECETTES = [
         "unite": "g"
       },
       {
-        "nom": "Lait",
+        "nom": "lait",
         "quantite": 10,
         "unite": "cl"
       },
       {
-        "nom": "Levure chimique",
+        "nom": "levure chimique",
         "quantite": 0.5,
         "unite": "sachet"
       },
@@ -4407,54 +4407,44 @@ const RECETTES = [
     "titre": "Dahl de pois cassés aux amandes",
     "ingredients": [
       {
-        "nom": "Pois cassés secs",
+        "nom": "pois cassés secs",
         "quantite": 300,
         "unite": "g"
       },
       {
-        "nom": "Amandes effilées",
+        "nom": "amandes effilées",
         "quantite": 40,
         "unite": "g"
       },
       {
-        "nom": "Carottes",
+        "nom": "carottes",
         "quantite": 2,
         "unite": null
       },
       {
-        "nom": "Oignon jaune",
+        "nom": "oignon jaune",
         "quantite": 1,
         "unite": null
       },
       {
-        "nom": "Boisson végétale de noix de coco",
+        "nom": "boisson végétale de noix de coco",
         "quantite": 25,
         "unite": "cl"
       },
       {
-        "nom": "Ail",
+        "nom": "ail",
         "quantite": 1,
         "unite": "gousse"
-      },
+      },      
       {
-        "nom": "Coriandre",
+        "nom": "gingembre",
         "quantite": 1,
         "unite": "càs"
       },
       {
-        "nom": "Gingembre",
-        "quantite": 1,
-        "unite": "càs"
-      },
-      {
-        "nom": "Curry",
+        "nom": "curry",
         "quantite": 3,
         "unite": "càs"
-      },
-      {
-        "nom": "Oignon",
-        "quantite": 1,
-        "unite": null
       },
       {
         "nom": "Huile d'olive",
@@ -4629,7 +4619,7 @@ const RECETTES = [
       "Écrasez les haricots à la fourchette, ajoutez les tomates et remuez.",
       "Préchauffez le gril du four. Mélangez l'emmental et la crème. Salez et poivrez. Versez la préparation aux haricots dans un plat à gratin. Recouvrez de crème et faites gratiner 25 min. Servez accompagné de chips de maïs."
     ],
-    "type_recette": "Fromagé",
+    "type_recette": "Veggie",
     "temps_prepa": 0.92,
     "image": "gratin_mexicain.jpg",
     "Personne": 4
@@ -5086,7 +5076,7 @@ const RECETTES = [
       "Préchauffez le four à 220 °C. Égouttez les lentilles et mélangez-les aux lardons. Mettez-les dans un plat à four.",
       "Écrasez les deux patates à la fourchette ou au presse-purée avec le beurre, le lait et le persil. Poivrez. Étalez la purée sur les lentilles, parsemez d'emmental et enfournez pour 10 min, jusqu'à ce que le dessus soit bien doré."
     ],
-    "type_recette": "Fromagé",
+    "type_recette": "Veggie",
     "temps_prepa": 0.83,
     "image": "parmentier_de_deux_patates_aux_lentilles.jpg",
     "Personne": 4
@@ -5144,37 +5134,37 @@ const RECETTES = [
     "titre": "Salade de lentilles, riz aux amandes",
     "ingredients": [
       {
-        "nom": "Lentilles vertes",
+        "nom": "lentilles vertes",
         "quantite": 100,
         "unite": "g"
       },
       {
-        "nom": "Riz basmati",
+        "nom": "riz",
         "quantite": 150,
         "unite": "g"
       },
       {
-        "nom": "Amandes effilées grillées",
+        "nom": "amandes effilées grillées",
         "quantite": 4,
         "unite": "càs"
       },
       {
-        "nom": "Citron",
+        "nom": "citron",
         "quantite": 1,
         "unite": null
       },
       {
-        "nom": "Huile d'olive",
+        "nom": "huile d'olive",
         "quantite": 4,
         "unite": "càs"
       },
       {
-        "nom": "Oignons frits",
+        "nom": "oignons frits",
         "quantite": 3,
         "unite": "càs"
       },
       {
-        "nom": "Ras el-hanout",
+        "nom": "ras el-hanout",
         "quantite": 1,
         "unite": "càc"
       }
@@ -5192,49 +5182,44 @@ const RECETTES = [
     "titre": "Dahl de lentilles, riz et cacahuètes",
     "ingredients": [
       {
-        "nom": "Lentilles corail",
+        "nom": "lentilles corail",
         "quantite": 200,
         "unite": "g"
       },
       {
-        "nom": "Gousse d'ail hachée",
-        "quantite": 1,
-        "unite": null
-      },
-      {
-        "nom": "Riz",
+        "nom": "riz",
         "quantite": 1,
         "unite": "verre"
       },
       {
-        "nom": "Curry",
+        "nom": "ail hachée",
         "quantite": 1,
-        "unite": "càs"
+        "unite": "gousse"
       },
       {
-        "nom": "Cacahuètes hachées",
+        "nom": "cacahuètes",
         "quantite": 40,
         "unite": "g"
       },
       {
-        "nom": "Oignon rouge ciselé",
+        "nom": "curry",
+        "quantite": 1,
+        "unite": "càs"
+      },
+      {
+        "nom": "oignon rouge",
         "quantite": 1,
         "unite": null
       },
       {
-        "nom": "Sauce yaourt à la coriandre",
-        "quantite": null,
+        "nom": "yaourt",
+        "quantite": 1,
         "unite": null
       },
       {
-        "nom": "Citron",
+        "nom": "citron",
         "quantite": null,
         "unite": null
-      },
-      {
-        "nom": "Coriandre ciselée",
-        "quantite": null,
-        "unite":null
       }
     ],
     "instructions": [
@@ -5251,44 +5236,44 @@ const RECETTES = [
     "titre": "Gâteau moelleux aux pommes, poires et farine de sarrasin",
     "ingredients": [
       {
-        "nom": "Oeufs",
+        "nom": "oeufs",
         "quantite": "4",
         "unite": null
       },
       {
-        "nom": "Sucre blond de canne",
+        "nom": "poires (environ 300 g)",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "pommes (environ 380 g)",
+        "quantite": "2",
+        "unite": null
+      },
+      {
+        "nom": "sucre canne",
         "quantite": "100",
         "unite": "g"
       },
       {
-        "nom": "Farine de sarrasin",
+        "nom": "farine de sarrasin",
         "quantite": "180",
         "unite": "g"
       },
       {
-        "nom": "Poudre à lever (sans gluten)",
+        "nom": "poudre à lever",
         "quantite": "8",
         "unite": "g"
       },
       {
-        "nom": "Cannelle",
+        "nom": "cannelle",
         "quantite": "0.5",
-        "unite": "cuillerée à café"
+        "unite": "càc"
       },
       {
         "nom": "Huile d'olive",
         "quantite": "50",
         "unite": "g"
-      },
-      {
-        "nom": "Poires (environ 300 g)",
-        "quantite": "2",
-        "unite": null
-      },
-      {
-        "nom": "Pommes (environ 380 g)",
-        "quantite": "2",
-        "unite": null
       }
     ],
     "instructions": [
@@ -5300,10 +5285,109 @@ const RECETTES = [
       "Faites cuire le gâteau environ 25 min dans le four préchauffé à 180°C.",
       "À la fin de la cuisson, sortez le gâteau et laissez-le refroidir sur une grille."
     ],
-    "type_recette": "Veggie",
+    "type_recette": "dessert",
     "temps_prepa": 0.75,
     "image": "gateau_moelleux_aux_pommes_poires.jpg",
     "Personne": 8
+},
+{
+    "titre": "Croque-monsieur",
+    "ingredients": [
+      {
+        "nom": "jambon",
+        "quantite": "4",
+        "unite": "tranches"
+      },
+      {
+        "nom": "beurre",
+        "quantite": "50",
+        "unite": "g"
+      },
+      {
+        "nom": "gruyère râpé",
+        "quantite": "100",
+        "unite": "g"
+      },
+      {
+        "nom": "muscade",
+        "quantite": "1",
+        "unite": "pincée"
+      },
+      {
+        "nom": "pain de mie",
+        "quantite": "8",
+        "unite": "tranches"
+      },
+      {
+        "nom": "comté",
+        "quantite": "8",
+        "unite": "tranches"
+      },
+      {
+        "nom": "lait",
+        "quantite": "4",
+        "unite": "càs"
+      },
+      {
+        "nom": "Sel - poivre",
+        "quantite": null,
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Beurrez les 8 tranches de pain de mie sur une seule face. Posez 1 tranche de fromage sur chaque tranche de pain de mie. Posez 1 tranche de jambon pliée en deux sur 4 tranches de pain de mie. Recouvrez avec les autres tartines (face non beurrée au dessus).",
+      "Dans un bol, mélanger le fromage râpé avec le lait, le sel, le poivre et la muscade.",
+      "Répartissez le mélange sur les croque-monsieur.",
+      "Placez sur une plaque au four sous le grill pendant 10 min."
+    ],
+    "type_recette": "porc",
+    "temps_prepa": 0.25,
+    "image": "croque_monsieur.jpg",
+    "Personne": 4
+},
+{
+    "titre": "Soupe veloutée au camembert",
+    "ingredients": [
+      {
+        "nom": "Oignons",
+        "quantite": "3",
+        "unite": null
+      },
+      {
+        "nom": "Crème fraîche",
+        "quantite": "20",
+        "unite": "cl"
+      },
+      {
+        "nom": "Pommes de terre",
+        "quantite": "4",
+        "unite": null
+      },
+      {
+        "nom": "Pain de mie",
+        "quantite": "3",
+        "unite": "tranches"
+      },
+      {
+        "nom": "Camembert",
+        "quantite": "1",
+        "unite": null
+      },
+      {
+        "nom": "Ail",
+        "quantite": "1",
+        "unite": null
+      }
+    ],
+    "instructions": [
+      "Couper tous les ingrédients en petits morceaux, puis ajouter 2,5 l d'eau.",
+      "Faire bouillir le tout pendant 20 min, puis assaisonner et passer au mixer.",
+      "Ajouter ensuite le persil, le jaune d'oeuf et la crème fraîche. Servir."
+    ],
+    "type_recette": "Fromagé",
+    "temps_prepa": 0.83,
+    "image": "soupe_veloutee_au_camembert.jpg",
+    "Personne": 6
 }
 
 ]
